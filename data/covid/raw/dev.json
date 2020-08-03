@@ -1,0 +1,1761 @@
+[
+    {
+        "dialogue_index": 246,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Good day. This morning I coughed for the very first time in a long time. With the corona virus around I feel the need to report this. I coughed for about 5 min. I have no fever, not tired and chest feels weird. What should I do?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Good day. This morning I coughed for the very first time in a long time. With the corona virus around I feel the need to report this. I coughed for about 5 min. I have no fever, not tired and chest feels weird. What should I do?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "severe"
+                    ],
+                    [
+                        "tiredness",
+                        "no"
+                    ],
+                    [
+                        "fever",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Best to stay home   Right now stay home, consult here.   Disinfect everything and stay safe. We are here to answer your questions.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 469,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I know hand washing (20+ seconds) is best to kill coronavirus, and that if not available use sanitizer of 60%+ alcohol. I thought my sanitizer was but realized it's only 57.6%. Been using lots for weeks. I've stopped using it. Should I be worried?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I know hand washing (20+ seconds) is best to kill coronavirus, and that if not available use sanitizer of 60%+ alcohol. I thought my sanitizer was but realized it's only 57.6%. Been using lots for weeks. I've stopped using it. Should I be worried?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Life is not exact   In pandemic times, supplies are short.   Life is not that exact. That means 57.6% is fine, and if a person catches the coronavirus, it won't be because she was missing 2% on her hand sanitizer. Remember that the virus goes from person to person. If there are no people close by, and if the high-touch surfaces like table tops, keyboards, or doorknobs are clean, then one is a lot safer. (Mar. 2020)  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 170,
+        "url": "https://www.healthcaremagic.com/questions/How-to-treat-walking-pneumonia/668999",
+        "description": "How to treat walking pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My fianc\u00e9 has been coughing uncontrollably every night for the past 4 months. He is 23 years old, 5'9, about 140 lbs., and has been told by his dr that he has walking pneumonia. He has been prescribed antibiotics, cough syrup, allergy medicine, mucinex, nasal sprays, and inhalers and although they suppress the coughing at times he still does not seem to have gotten rid of the coughing. His coughing is accompanied with phlegm and has also caused him to throw up due to the extremity. He does smoke cigars as well. What is this!?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "severe"
+                    ],
+                    [
+                        "phlegm",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Walking pneumonia is a non-medical term to describe a mild case of pneumonia. It is usually called atypical pneumonia because the disease is different from more serious cases of pneumonia caused by typical bacteria. it is often the result of a lung infection from a bacterial microorganism called Mycoplasma pneumoniae and generally treated with antibiotics. Mild infections are often not treated because they tend to clear on their own. With treatment, most people begin to feel better within a few days.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 266,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "2 days ago I started experiencing fatigue and random body pains, mostly below the ribs and body temp was high as I was sweating and feeling cold. GP give me flue medication and advice against testing for Corona. Should I insist on testing for Corona?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "2 days ago I started experiencing fatigue and random body pains, mostly below the ribs and body temp was high as I was sweating and feeling cold. GP give me flue medication and advice against testing for Corona. Should I insist on testing for Corona?",
+                "turn_label": [
+                    [
+                        "unwell_duration",
+                        "in_a_week"
+                    ],
+                    [
+                        "tiredness",
+                        "yes"
+                    ],
+                    [
+                        "fever",
+                        "yes"
+                    ],
+                    [
+                        "muscle_aches",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   No,you shouldnt.   Unless you have a history of international travel recently or were in contact with someone who has tested positive for Corona Virsu.  Would you like to video or text chat with me?        ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 567,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My 2year old Son has had a dry cough and a runny nose since thursday . He's not talking yet so it is difficult to tell if he has any trouble breathing so I'm concerned. He does not have temperature ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 2year old Son has had a dry cough and a runny nose since thursday . He's not talking yet so it is difficult to tell if he has any trouble breathing so I'm concerned. He does not have temperature ?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "breath_difficulty",
+                        "no"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Observant is enough.   By looking at your child you'll know if he is having breathing difficulties.   Cough with a runny nose is common in children. You should be concerned only if he is refusing to play and eat, or if he develops breathing difficulties. Having a fever doesn't mean he has the Coronavirus. He is more likely to be infected with any of the common infections in your area of Gauteng.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 368,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Should patients with COVID-19 avoid ibuprofen or RAAS antagonists?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Should patients with COVID-19 avoid ibuprofen or RAAS antagonists?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   COVID-19 and RAAS    No, according to recent statement from American Heart Association, the patients with cardiovascular disease should continue ACEI or ABR as prescribed.   WHO also doesn't recommend avoiding ibuprofen for patients with COVID-19 Symptoms, although the use of acetaminophen could be an alternative option.   Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 582,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I am a quadriplegic and have a tight chest and slight difficulty breathing.  Overnight I started feeling like I need to clear my throat. I flew home to Joburg from CPT 8 days ago & have been self isolating as a precaution. ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I am a quadriplegic and have a tight chest and slight difficulty breathing.  Overnight I started feeling like I need to clear my throat. I flew home to Joburg from CPT 8 days ago & have been self isolating as a precaution. ?",
+                "turn_label": [
+                    [
+                        "breath_difficulty",
+                        "mild"
+                    ],
+                    [
+                        "sore_throat",
+                        "mild"
+                    ],
+                    [
+                        "chest_pain",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Monitor.   Stay at home, monitor your temperature, drink fluids and rest.   Nasal congestion and post nasal drip is not typically associated with COVID-19. Watch for dry cough, fever and if your shortness of breath does not resolve, discuss whether you need an inhaler, chest physiotherapy and/or testing. If you have a trach, watch for signs of infection such as more secretions or a change in color .  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 213,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Itchy ears, painful ears pain in roof of mouth only at night. Post nasal drip. I've sneezed a few times and sometimes my nose runs in the morning what could this be? Also sometimes I cough but not a lot. Any idea? Covid 19?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Itchy ears, painful ears pain in roof of mouth only at night. Post nasal drip. I've sneezed a few times and sometimes my nose runs in the morning what could this be? Also sometimes I cough but not a lot. Any idea? Covid 19?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Probably not Covid.   May be allergic, bacterial sinus infection, a different virus, a narrow upper jaw with partial airway obstruction, or other causes.   Call your General Physician and check if they want to see you. See your Dentist to evaluate if your upper jaw is too narrow and if you need to see an Orthodontist.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 494,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hi There. I was at a festival over this past weekend and there has been a report of someone testing positive now. Is it a good idea to go for a test and/or self isolate ? Is national travel by car ok ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi There. I was at a festival over this past weekend and there has been a report of someone testing positive now. Is it a good idea to go for a test and/or self isolate ? Is national travel by car ok ?",
+                "turn_label": [
+                    [
+                        "recent_travel",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Self-quarantine!    Enter self-quarantine then call your health care provider to get instructions regarding testing, self-quarantine and possible hospitalization then follow through!  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 181,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Dry scratchy throat, very mild cough since 23 March but not improving. Traveled to Cape Town via Lanseria and CT Airports 15-20 March. Wife has sore throat, nasal congestion, lethargy & headaches since 21 March. Should we see a doctor to be assessed?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Dry scratchy throat, very mild cough since 23 March but not improving. Traveled to Cape Town via Lanseria and CT Airports 15-20 March. Wife has sore throat, nasal congestion, lethargy & headaches since 21 March. Should we see a doctor to be assessed?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "mild"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "headache",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Stay home.   Stay home for at least 7 days, rest, drink fluids and monitor your temperature.   There is an overlap between flu and COVID-19 symptoms. Nasal congestion and absence of fever are not typically associated with COVID.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 177,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Should I really be worried about my elderly parents catching COVID-19? What steps should they take to stay healthy?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Should I really be worried about my elderly parents catching COVID-19? What steps should they take to stay healthy?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Yes. Avoid contact but ensure that they have food, supplies and able to slay at home. They should drink fluids and if they develop a fever, please call your PCP right away and also consider a virtual appointment with HT. Other symptoms to watch for include dry cough and shortness of breath. Use good hand washing and disinfect surfaces.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 543,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I have all the symptoms except fever, I went to Medicross and Dr said I can get tested if I want to I'm not sure if I should. She gave me antibiotics Klacid XL 500mg, she said I can take it if I feel worse I'm worried it will make immune system bad?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have all the symptoms except fever, I went to Medicross and Dr said I can get tested if I want to I'm not sure if I should. She gave me antibiotics Klacid XL 500mg, she said I can take it if I feel worse I'm worried it will make immune system bad?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Antibiotic   I don't recommend antibiotics for a simple viral upper respiratory tract infection unless examination revealed signs of acute bronchitis or sinusitis.   They are not effective for viral infections like coVid 19 with no bacterial lung involvement either. If you've been exposed to someone with coVid 19 or or if you or someone you were exposed to travelled to a region where it was endemic, get tested  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 3,
+        "url": "https://www.icliniq.com/qa/coronavirus/can-corona-virus-cause-itchiness-in-throat-and-shortness-of-breath",
+        "description": "Can Coronavirus cause itchiness in throat and shortness of breath?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hello doctor, I am a 23-year-old man. I have anxiety and depression but no immunodeficiency disorders or chronic diseases. First, I wanna know if my immune system is weakened and how likely am I to die of Coronavirus. Second, I have itchiness in my throat and shortness of breath. I always have it because of anxiety but now it is more persistent than before. I also feel a very subtle feeling of pain, burning sensation and itchiness in my chest. I did not go out during the past ten days and have not been in contact with someone with positive Covid. And I quit smoking past week. Down to one or zero cigarettes from 20 a day. Why am I feeling itchiness and pain and burning sensation? How likely am I to have Covid-19? And how likely am I to die from it?",
+                "turn_label": [
+                    [
+                        "breath_difficulty",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "no"
+                    ],
+                    [
+                        "smoking",
+                        "yes"
+                    ],
+                    [
+                        "contact_with_infestor",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello. Anxiety can manifest itself in physical or psychological symptoms or both. The irritation sensation you are experiencing is a part of your anxiety. Also please do not believe the hype about covid. It has a low mortality rate, of 2-3 percent, that too mortality is very high in people above 60-70 years with other co-morbidities. You do not have any such disorders and you have not even been in contact with anyone, so do not worry. Please continue to take your medicines for anxiety if you are taking them, if not, please consider visiting a psychiatrist and get started on some low dose SSRI type of medicines. Also, if needed a low dose Benzodiazepines can be added temporarily. Also, please do some deep breathing exercises, or progressive muscle relaxation. You can also take some honey with water to reduce the itching in the throat and also try doing some gargles with lukewarm salt water.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 97,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-community-acquired-pneumonia/548129",
+        "description": "Suggest treatment for community acquired pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I am a family doctor in an outpatient family medicine setting, and the question was raised reguarding treatment for community acquired pneumonia. If reoccurance of infection occurs, after treatment with z pack within 90 days how  should patient be treated. Would it be safe to treat again with levaquin as an outpatient?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello It depends on the age, commodities, immunity status and the cause why the pneumonia is come back again.RegardsDr.Jolanda",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 109,
+        "url": "https://www.healthcaremagic.com/questions/Can-cough-lead-to-pneumonia-or-tuberculosis/589998",
+        "description": "Can cough lead to pneumonia or tuberculosis?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "NAME: Brent AGE: 22 SEX: Male SYMPTOMS : I have a cough that seems to be reccursive. It occurs usually at nightime, or if I gave a very intense sneeze or laugh. When this cough occurs, it is very dry, that it would sound like a yelping dog. Also, besides cough, I do experience a reccursive runny nose, sometimes coupled with watery red eyes and itchy throat. The runny nose discharge is transparent, almost like saliva or tears. Ironically, after a while, these symptoms would disappear, and when they do disappear, I feel completely normal. I have already consulted a doctor and was diagnosed of allergic rhinits. She adviced me to take anti histamines, either zirtec or iterax, which ever do i prefer. Unfortunately, it works at often but not at all times. HOW MANY DAYS?:Reccursive cough has been going on since april of this year. As for the runny nose, since november of last year ALLERGIES: not that i know of, When I was five years old, I remember being diagnosed of Primary Complex, but was able to be treated before it goes into something else. Also, TB runs in the family, as my uncle had it before, and so as my mom (although the doctor said it was already a scar). As for me, 2009 was a stressful year. There were months, when my hours of daily sleep was only around 3 to four hours due to school work. Also, for a period of time I was involved in smoking, although it has been a month since I stopped. Doctor, I would just like to know what are the chances of me, acquiring respiratory illness like pneumonia or tuberculosis, or development of asthma? Also, if i get to consult a doctor personally with my parents, will the doctor be able to detect my past smoking habit, based on the procedures he will do, or with tests that he will recommend like xray? The truth is, I am hesitant to go to a medical clinic, because my parents have to accompany me, and I am afraid that the doctor might make 'bisto'  towards my parents, as they don't know that I do smoke. But i do really want to seek medical attention. Besides the incovenicence of symtpoms, I am worried that it might be something serious. Hoping for a  share of your brilliant expertise. thank you doctor and good day.",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ],
+                    [
+                        "smoking",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Thanks for your concern. The dry cough basically has a few causes....First is Post nasal drip, second  Gastroesophageal reflux'heart burn', third Cough variant aasthma, forth Heart failure and finally Interstitial lung disease. Based on the information if you don't have a heart burn or reflux of food or sour brash into your mouth, you are having a cough variant asthma, make sure you do not have difficulty breathing. There is something called cardiac asthma, but it's not much of a likelihood given your young age.I advice you that you give up on smoking as it causes a multitude of problems and may well be related to the cough you've been having now called as 'smokers cough'.It's time that you stop smoking, avoid animal dancers, mites, pollens and any thing that would exacerbate the illness, make sure you don't have a heart burn, and if still the cough persists , meet a pulmo neologism and get a Pulmonary function test with methacholine challenge",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 264,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Can we use Disprin or Compral pils when we have Corona. They dont contain ibuprophen?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Can we use Disprin or Compral pils when we have Corona. They dont contain ibuprophen?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Yes you can,depends.   Corona Virus treatment so far is symptomatic and supportive.    It really depends what you treat with Disprin/Compral.You are they do not have Ibuprofen.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 2,
+        "url": "https://www.icliniq.com/qa/covid-19/i-have-a-little-fever-with-no-history-of-foreign-travel-or-contact-what-is-the-chance-of-covid-19",
+        "description": "I have a little fever with no history of foreign travel or contact. What is the chance of Covid-19?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hello doctor, I am suffering from coughing, throat infection from last week. At that time fever did not persist and also did not felt any chest pain. Two days later, I consulted with a doctor. He prescribed Cavidur 625, Montek LC, Ambrolite syrup and Betaline gargle solution. Since then throat infection improved and frequent cough also coming out. Coughing also improved remarkably though not completely. From yesterday onwards fever is occuring (maximum 100-degree Celcius). I have not come in touch with any foreign returned person nor went outside. In our state, there is no incidence of Covid-19. Please suggest what to do?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "yes"
+                    ],
+                    [
+                        "cough",
+                        "mild"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "chest_pain",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello, I can understand your concern. In my opinion, you should get done a chest x-ray and CBC (complete blood count). If both these are normal then no need to worry much. I hope this helps.",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "Thank you doctor, After doing all these I can upload all for further query.",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hi, yes, upload in this query only. I will see and revert to you.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "Thank you doctor, As per your guidelines, I have made one test. Due to city shutdown, I could not able to make an x-ray of chest. Fever is coming every 12 hours. But cough does not persist currently. The only problem is a fever. I am uploading the blood examination report. Please advice.",
+                "turn_label": [
+                    [
+                        "fever",
+                        "yes"
+                    ],
+                    [
+                        "cough",
+                        "mild"
+                    ],
+                    [
+                        "chest_pain",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hi, I can understand your concern. I have gone through the report you have attached. (attachment removed to protect patient identity).Your total count is on the higher side of normal along with low hemoglobin. So start Azithromycin 500 mg 1-0-0, Tablet Dolo 650 1-0-1. Once your fever and cough subside, start an Iron tablet for low hemoglobin. I hope this helps.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "Thank you doctor, How many tablets of Azithromycin to be taken? Is it in the morning? I want to make you know that I have already taken Azithromycin five days before. Should she start it? And also can I start an Iron tablet today itself?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hi, Yes, you can take iron tablet from today onwards. And no need for Azithromycin now as you have already taken it. Drink plenty of fluids orally and keep yourself hydrated. Do warm water gargles and steam inhalation four to five times a day.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 148,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-pneumonia/669959",
+        "description": "Suggest treatment for pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "my cousin was admitted yesterday for pneumonia and a collasped lung which was diagnoised yesterday. they did surgery this morning by cleaning out and draining fluids. she is now heavily sadated with a tube in her right lung. what will it take for her to get well again?",
+                "turn_label": [
+                    [
+                        "chronic_lung_diseases",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "It sound like your cousin has something called- Empyema. It is basically an abscess in the chest cavity. And the correct treatment for it is drainage - which was done appropriatley. But he should receive antibiotic treatment with coverage of both aerobic and anaerobic organisms. Usually specimens are send from the procedure to see which organisms grow and provide a more directed antibiotic coverage.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 570,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "A 2 year complaining that his head is sore. We gave him panado in the morning and at midday. He can't sleep he keeps waking up crying its painful. Should I take him to a Dr or hospital?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "A 2 year complaining that his head is sore. We gave him panado in the morning and at midday. He can't sleep he keeps waking up crying its painful. Should I take him to a Dr or hospital?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Fever?   Start by call Pediatrician ASAP.   if high fe ver or projectie vomiting take to ER .  take to ER  if inconsolable and cannot get pedicatrician IF mild respiratory or GI symptoms likely virus and want to make sure adequately hydrated and may just watch, isolate from contact , and give chicken soup . work on soothing and disstraction Keep in touch with pediatrician.   Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 568,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Can I test?No known contact with Corona  but been in contact with with Congo dr friend 7march. She is still healthy now. I had Slight Sore throat wed 11 &12 March . phlegm and red eyes. Temp seemed ok. Got thermometer .ok. 19 felt better but coughing",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Can I test?No known contact with Corona  but been in contact with with Congo dr friend 7march. She is still healthy now. I had Slight Sore throat wed 11 &12 March . phlegm and red eyes. Temp seemed ok. Got thermometer .ok. 19 felt better but coughing",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "phlegm",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "contact_with_infestor",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Per RSA NICD:   Seek care right away if difficulty breathing, other severe symptoms.  Seek testing if sick, PLUS known COVID-19 contact, or travel to high risk country, or been in facility treating people with COVID-19, or severe pneumonia of unknown cause.Call 0800 029 999 for test. If sick or possibly exposed (not both), stay home.Seek consultation if sick.If known exposure & not sick, self-isolate 14 days.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 553,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I have scratchy throat, phlegm, loss of appetite, fatigue. I am pharmacist in research facility. My son had 3rd contact. He has flu symptoms. He was quarantined. We are waiting for the results for his contact. Do I need to test myself?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have scratchy throat, phlegm, loss of appetite, fatigue. I am pharmacist in research facility. My son had 3rd contact. He has flu symptoms. He was quarantined. We are waiting for the results for his contact. Do I need to test myself?",
+                "turn_label": [
+                    [
+                        "phlegm",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "contact_with_infestor",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Cluster cases   I would recommend staying at home, rest, drink fluids and monitoring your temperature.   You may have COVID-19 or another illness. If you are otherwise healthy, await test results. Keep utensils, linens separate and washed. Use good hand washing and disinfect surfaces. If the test is positive, please have screening of all family members in your home. Avoid contact with others.   Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 499,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Body ache and fever, scratchy itchy throat?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Body ache and fever, scratchy itchy throat?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Early COVID-19? Call your health care provider to get instructions regarding testing, self-quarantine and possible hospitalization then follow through!",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 358,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Good Day Doctor. since past week, i am loosing weight.Mid last week it was 62 odd and today when I checked, it is 61.35. Few months back weight was above 64. I am having no other symptoms. I realized this only when my trousers were loose. Thanks.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Good Day Doctor. since past week, i am loosing weight.Mid last week it was 62 odd and today when I checked, it is 61.35. Few months back weight was above 64. I am having no other symptoms. I realized this only when my trousers were loose. Thanks.",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Dont think c   This is a different problem. Dont think it is covid.   Which is good news. What are your other symptoms?  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 126,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-breathlessness-after-recovering-from-pneumonia/624202",
+        "description": "Suggest treatment for breathlessness after recovering from pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "my son is 2 month old and when he was one month old then pneumonia atak him and he was admited one month in Eraz hospital in balagung and after 15 days he having problem in the breathing he cant breathing well can u tell me what is the problem he have and what is the sulation?",
+                "turn_label": [
+                    [
+                        "breath_difficulty",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello dearWarm welcome to Healthcaremagic.comI have evaluated your query thoroughly .*  This has different  reasons  as    -  residual effect of pneumonia  -  decreased lung  immunity  -  spasm of       bronchi or alveoli with secretions  -  others .*  Need  urgent pediatric consultation for further management .Wishing your angel fine recovery .Regards .",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 245,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My 2 year old has a small fever and is vomiting. I'm worried about her. Are these symptoms of the Coronavirus?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 2 year old has a small fever and is vomiting. I'm worried about her. Are these symptoms of the Coronavirus?",
+                "turn_label": [
+                    [
+                        "vomiting",
+                        "yes"
+                    ],
+                    [
+                        "fever",
+                        "mild"
+                    ],
+                    [
+                        "age",
+                        "children"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Probably not. much more important is what her exposure is to anyone who has COVID19 or traveler from a highly infected area.fever >100.4F and respiratory symptoms are more common with COVID 19 than vomiting.",
+                "system_acts": [
+                    "dontworry"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 549,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Just found out that my MD tested positive for Covid-19. I had direct interaction with him. He has no symptoms, he was tested because he traveled in February to Switzerland. Should I be tested. I'm 67, or wait to see if I develop any symptoms.?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Just found out that my MD tested positive for Covid-19. I had direct interaction with him. He has no symptoms, he was tested because he traveled in February to Switzerland. Should I be tested. I'm 67, or wait to see if I develop any symptoms.?",
+                "turn_label": [
+                    [
+                        "recent_travel",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Per RSA NICD: Self-isolate for 14 days.Seek testing if sick.Call 0800 029 999 for test information.Seek consultation if sick, preferably by phone or telemedicine.Seek care right away if difficulty breathing, other severe symptoms.Good luck, from the United States!",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 495,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hi. My son is 2 years old. Last week he fell ill for a day or two. He kept vomiting and had a day of diarree. However since last night he is coughing constantly with plegm and runny nose, and loss of appetite. Do I need to test him for COVID-19?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi. My son is 2 years old. Last week he fell ill for a day or two. He kept vomiting and had a day of diarree. However since last night he is coughing constantly with plegm and runny nose, and loss of appetite. Do I need to test him for COVID-19?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ],
+                    [
+                        "vomiting",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Maybe. Do video w/",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 332,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Because I have type 1 diabetes, what is likely to happen to me if I get the coronavirus?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Because I have type 1 diabetes, what is likely to happen to me if I get the coronavirus?",
+                "turn_label": [
+                    [
+                        "type_1_diabetes",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Might be more severe. People with diabetes can have more fragile immune systems with difficulty fighting infections, so if you contract coronavirus you might be at greater risk for breathing complications.  Any serious illness can affect blood sugar control in diabetics also. I recommend taking extra precautions to minimize contact with people so as to avoid contacting the virus.  .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 45,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-chronic-pneumonia/795441",
+        "description": "Suggest treatment for chronic pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi, I m a 55 yr old white female, 5`4 , 180 lbs. I had childhood asthma and bronchitis, and were given steroids frequently. I seemed to grow out of it at age 17. During the last 14 yrs I ve developed Fibromyalgia/Chronic Fatigue, RA, for 14 months my SED rate stayed at 53-108 and they could not find out why, Cushing s Syndrome, neuropathy of the feet, and most importantly - Hypogammaglobulinemia. I rec d IGG iv s monthly for 4 yrs, then lost insurance 6 yrs. ago. I m disabled and on Medicare, I haven t rec d IV s in 6 yrs. During that time I ve had pneumonia 17 times, once was septic pneumonia, constant sinus problems, PCP infection and a rare form of arthritis associated with the hypo (the Dr. couldn t tell me the name of it). I have contacted Medicare, foundations and pharm companies trying to get help to start treatment again. Reaching out to any possible help has been met with apathy and no one would try to point me in the right direction. I m really worried and would like to know my chances of surviving if I can t get the IGG treatments. Thank you very much for your time.",
+                "turn_label": [
+                    [
+                        "age",
+                        "old"
+                    ],
+                    [
+                        "asthma",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello, The cause of chronic pneumonia is mandatory to be evaluated here with culture of bronchial lavage fluid, CT scan of the thorax and other supportive evaluations. Unless the root cause is identified, one cannot get the complete management chart. Hope I have answered your query. Feel free to post further doubts. Thank you. Regards Dr. Bhagyesh V. Patel, General Surgeon",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 507,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I am an asthmatic but rarely need my inhaler and haven't had an attack in decades however with Covid 19 I'd like to put in place some measures in case the health services get overwhelmed. What drugs can I take if inhalers don't work?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I am an asthmatic but rarely need my inhaler and haven't had an attack in decades however with Covid 19 I'd like to put in place some measures in case the health services get overwhelmed. What drugs can I take if inhalers don't work?",
+                "turn_label": [
+                    [
+                        "asthma",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Get meds refilled. With the COVID-19 pandemic, people with chronic conditions or even intermittent conditions should get their meds refilled in case pharmacy services close down. For asthma patients, they should refill their inhalers. Some use only an urgent 'rescue' inhaler like albuterol, while others also use 'preventive' inhalers like fluticasone. It's best to keep both on hand. If symptoms go bad, it's ER time.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 267,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "On the night of 23rd March I started experiencing soar throat and little bit nose block. I visited GP yesterday and was given flue medication. GP advised against Corona testing since my temp was normal. Should I be concern about the Corona virus?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "On the night of 23rd March I started experiencing soar throat and little bit nose block. I visited GP yesterday and was given flue medication. GP advised against Corona testing since my temp was normal. Should I be concern about the Corona virus?",
+                "turn_label": [
+                    [
+                        "sore_throat",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Not at all. Your ",
+                "system_acts": [
+                    "dontworry"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 184,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Where do genital warts come from? My partner has visible ones, however I don't. I'm female. Could they be there internally ? What are the origins of this virus?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Where do genital warts come from? My partner has visible ones, however I don't. I'm female. Could they be there internally ? What are the origins of this virus?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   HPV virus   Human papiloma virus.   You wont necessarily have them but you could have the virus. When last did you have a papsmear. THey can pick it up on that. Once we are out of lockdown get a papsmear.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 158,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-chest-cold-after-treated-pneumonia-in-past/677639",
+        "description": "Suggest treatment for chest cold after treated pneumonia in past",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "my son is 3 years old, and came down with a head cold wed, it moved immediately to his chest (he is a preemie-grad, and has had trouble with pneumonia and rsv in past) he is running a temp, and his respiratory rate is between 48-50.  I just don't know if i should wait it out a little longer to see what the day brings or take him in. I hate feelling like i'm always there for the slightest things with him, but his history proves medical intervention always was the case. It just seems so quick that a lung issue would be evident, when he only started showing signs of a cold wednesday night.",
+                "turn_label": [
+                    [
+                        "chest_pain",
+                        "yes"
+                    ],
+                    [
+                        "chronic_lung_diseases",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello,Your son\u2019s respiratory rate is too high. Please take him to ER immediately and take a chest x-ray immediately.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Siva Kumar Reddy",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 54,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-medication-for-severe-pneumonia/795780",
+        "description": "Suggest medication for severe pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have been on methadone for approx. 5 years now at a dose of 30mg taken 4 times daily. This has not only stopped any unpleasant withdrawl symptoms but has also offered considerable relief in easing chronic pain from a severe back injury 11 years ago. For the first 3 years of taking the medication I found that while it was effective in these areas their was an exceptional side effect in that it absolutely obliterated any interest in sex or even the ability to physically have sex. Also I found that I had next to no energy, making many things I used to enjoy fall by the wayside which in turn led to severe depression. After extensive talks with my Doctor I was sent for blood analysis and it was found that my level of testosterone was so low it barely registered. I was then put on a 3 week cycle of injections of 2mls of Delatestryl and for the past several years I have been the person that I used to be (it gave me my life back). Know I have been given a new Doctor at the clinic I attend and he has informed me that he is only there to prescribe methadone and will not be responsible for any other prescriptions. I do not have a family doctor and our emerg has said that this falls outside their domain. The walk in clinic treats every individual that I know so badly that their is no doubt in my mind that they will refuse to continue this presciption. (to give you some perspective on our walk in clinic - I went their several mnths back with sever pneumonia and the Doctor looked at my chart once and told me that I would get know %$# narcotics from him and to leave immediately) Any suggestions on how to get across to my knew methadone Doctor (who has only been in prescribing methadone for 2 months) just how much this would severely negatively impact my life?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice. * The pneumonia management depends upon the symptoms which are not narrated here precisely. * The Methadone is known to cause long terms side effects over liver, kidney and other body systems, which should be discussed with the treating physician. Awaiting for the symptomatic details to guide further. Hope I have answered your query. Let me know if I can assist you further.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 481,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Should one also cover eyes in addition to covering mouth and nose with mask to avoid exposure to Corona virus? Lots of people only use masks but that may not provide full protection, right?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Should one also cover eyes in addition to covering mouth and nose with mask to avoid exposure to Corona virus? Lots of people only use masks but that may not provide full protection, right?",
+                "turn_label": [
+                    [
+                        "runny_nose",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Correct. Every bit helps.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 47,
+        "url": "https://www.healthcaremagic.com/questions/What-is-the-permanent-treatment-for-klebsiella-pneumoniae/978706",
+        "description": "What is the permanent treatment for klebsiella pneumoniae?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "my mother has CRE/resistant klebsiella pnuemoneae(excuse the spelling) She is allergic to most antibiotics,sulfa, & penicillin. She has been treated five times obviouly they haven t worked in full! She easily goes anaphylactic! mid way through treatments. Last trtmt. was 7 days ago. 1st day , IV Ertapenem 1mg and litocane, prior to trtmt. she premeds w/ 50 mgs oral benedryl,1 hour cooktime prior ttrtmt.there was to be an additional 9 doses IM and on 6th dose went into shock. She is being readmitted in a.m. for another attempt she is trying oral doses of colodial silver. HELP WHAT TO DO? hOW LONG CAN THIS GO ON BEFORE SHE DIES? wHAT ARE THE SYMPTOMS OF DEATH DUR TO cre?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hi, In such conditions we recommend another class of antibiotics but in the survey of the allergologist who should monitor closely the patient's situation. Hope I have answered your query. Let me know if I can assist you further. Regards, Dr. Jnikolla, Pulmonologist",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 476,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Can covid19 cause shortness of breath without a cough?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Can covid19 cause shortness of breath without a cough?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "no"
+                    ],
+                    [
+                        "breath_shortness_or_difficulty",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Yes. There are many causes of shortness of breath. COVID-19 may be one cause and is not necessarily associated with cough. Fever is one prominent symptom, but the absence of fever does not rule out the infection. .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 135,
+        "url": "https://www.healthcaremagic.com/questions/Could-the-persistent-strep-inspite-of-using-Amoxicillin-be-due-to-pneumonia/617314",
+        "description": "Could the persistent strep inspite of using Amoxicillin be due to pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Son is 9 years old.  He has strep and is on amoxicilin.  His fever is gone now, but he still doesn't feel good.  Very tired and dark circles under the eyes.  Very pale.  He has been on the med for 3 full days and I think the antibiotic is not working.  Could he also have pneumonia (no cough though).",
+                "turn_label": [
+                    [
+                        "fever",
+                        "no"
+                    ],
+                    [
+                        "cough",
+                        "no"
+                    ],
+                    [
+                        "tiredness",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Thanks for your question on Healthcare Magic.I can understand your concern.No need to worry for pneumonia as he is not having coughing.Coughing is first symptom of pneumonia.So pneumonia is unlikely in the absence of coughing.And 3 days antibiotic duration is too early to decide about effectiveness.You should give full 7 days course of amoxicillin.Fever was subsided so amoxicillin Island definitely working.Along within amoxicillin, give him plenty of fluids orally, fruits, juices etc for energy.Don't worry, he will be alright.Hope I have solved your query. I will be happy to help you further. Wish you good health. Thanks.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 190,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "On and off fever, sore body?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "On and off fever, sore body?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Probable flu. This definitely sounds like Influenza is starting.( Unless you have any obvious reason to suspect COVID-19,Malaria,Tick Bite Fever or Glandular Fever).Rest,Vitamin C and a suitable over the counter painkiller. I would advise avoiding Ibuprofen and other Non-Steroidal Anti-Inflammatory medication.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 334,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Are there specific animals or pets more likely to catch corona than others? Which animals should I be staying away from?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Are there specific animals or pets more likely to catch corona than others? Which animals should I be staying away from?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Limited risk   From my reading the corona virus is limited in the animals it infests to varieties of bats and snakes.   I would not put your dog or cat on such a list.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 36,
+        "url": "https://www.healthcaremagic.com/questions/How-long-do-shortness-of-breath-and-cough-last-post-recovery-from-pneumonia/1591918",
+        "description": "How long do shortness of breath and cough last post recovery from pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I was diagnosed with pneumonia on june 30. I finished taking my antibiotics and cough pills. I still continue to cough sometimes gaging. Shortness of breath and wheezing, I have an inhaler, I am not coughing up anymore phlem. my doctor says to take Mucinex DM. I have finished a bottle. I also have taken robitussin cough medicine. She also sd cough cld last up to 4-6 weeks.",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "breath_difficulty",
+                        "severe"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello, These symptoms last for 3-4 weeks. So no need to worry if fever is not there. Hope I have answered your query. Let me know if I can assist you further. Take care. Regards, Dr Kaushal Bhavsar, Pulmonologist",
+                "system_acts": [
+                    "dontworry"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 87,
+        "url": "https://www.healthcaremagic.com/questions/Is-HRCT-test-recommended-for-pneumonia/578750",
+        "description": "Is HRCT test recommended for pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hello Doctor, My mother is an asthamatic and diabetic and has been suffering from pneumonis and being treated an MAdam Mohan MAlviya hospital in Malviya Nagar Delhi. The doctors there have recomended for a HRCT test done for her chest. Cld u recomend the hospital where we shld go for this test?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Thanks for your question on Healthcare Magic.I can understand your concern. HRCT thorax is done at radiology center. So ask your doctor about near by CT scan centers.Usually CT scan is not required for diagnosis of pneumonia.But in some cases if diagnosis is not confirmed or patient is not improving or we suspect TB or ILD (interstitial lung disease) then HRCT thorax is advised.Hope I have solved your query. I will be happy to help you further. Wishing good health to your mother. Thanks.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 336,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I work in a call center and one of my agents tested positive for Covid-19, sent her home Wednesday to get tested and yesterday they came back positive?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I work in a call center and one of my agents tested positive for Covid-19, sent her home Wednesday to get tested and yesterday they came back positive?",
+                "turn_label": [
+                    [
+                        "contact_with_infestor",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "CoVid. https://www.healthtap.com/blog/covid-19-care-guidelines/resources-for-managing-covid-19https://www.healthtap.com/blog/covid-19-care-guidelines/self-quarantine-guide.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 479,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Scratching sore thoat and  slight chest irritation. With body aches and tired with slight fever?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Scratching sore thoat and  slight chest irritation. With body aches and tired with slight fever?",
+                "turn_label": [
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "muscle_aches",
+                        "yes"
+                    ],
+                    [
+                        "fever",
+                        "mild"
+                    ],
+                    [
+                        "chest_pain",
+                        "mild"
+                    ],
+                    [
+                        "tiredness",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Fever with body ache   Hello & welcome to HealthTap,It could be anything from common cold to COVID-19.   Please go to Prompt care. Call them before going.  When tested for COVID-19, self quarantine for total 2 weeks from the onset of symptoms. Please wear mask and perform frequent hand washing. Avoid Ibuprofen/other NSAIDs, use acetaminophen/ Tylenol only. If signs of worsening cough & breathing present then go to ED.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 57,
+        "url": "https://www.healthcaremagic.com/questions/Should-a-CT-scan-be-done-while-suffering-from-pneumonia/1475273",
+        "description": "Should a CT scan be done while suffering from pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 62 year old sister is currently hospitalized for pneumonia that was dx after foot surgery related to a fall. She had Breast CA 8 years ago. Currently taking Tamoxifin. BRCA II gene. 3 sisters also with gene mutation and hx of breast CA. Youngest sister passed away from recurrance of Breast CA. (Mets to lungs, liver and bones.) Hospital ruled out blood clot in lung. Dx with pneumonia. Should CT scan be done since she has has a long standing cough and multiple bouts of pneumonia.",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "chronic_lung_diseases",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice. Yes, she can safely do the chest CT. There is not any contraindication of doing it in pneumonia. Regards, Dr.Jolanda",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 338,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I have chest congestion and I feel heavy when I breathe (not sure if I have a fever, don't really have a cough but my throat is sore). I also know that someone in my office and my boyfriends office have been infected with COVID19. What should I Do?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have chest congestion and I feel heavy when I breathe (not sure if I have a fever, don't really have a cough but my throat is sore). I also know that someone in my office and my boyfriends office have been infected with COVID19. What should I Do?",
+                "turn_label": [
+                    [
+                        "contact_with_infestor",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "cough",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "mild"
+                    ],
+                    [
+                        "breath_shortness_or_difficulty",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   ? telephonic consult   If you are able, consult telephonically with your GP.   If not, do not go into public places, rather get symptomatic treatment - let someone who is well do this as swiftly as they can. Otherwise continue consulting on this forum. We can help you. If you have access to a test this is the ONLY way to know if you truely have it.   Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 128,
+        "url": "https://www.healthcaremagic.com/questions/What-do-hurting-ribs-radiating-to-back-and-shoulder-after-being-treated-for-pneumonia-mean/645365",
+        "description": "What do hurting ribs radiating to back and shoulder after being treated for pneumonia mean?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi, may I answer your health queries right now ?  Please type your query here...I have been to the doctor 2 times. First time, it was a severe sinus infection, week later had to go back, turned into pneumonia, had to go back third time. All 3 times I was given a shot, antibotics & c-pack first time, steroids, antibotics & shot second and antibotics & shot third. I have been hurting under my ribs and has gone to my back and shoulder. Do you think the pneumonia has gotten worse? Do I need to go back to the doctor?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello dearWarm welcome to Healthcaremagic.comI have evaluated your concern in depth .*  This indicates lung pathology giving nerve endings pain with hurting ribs    radiating to back and shoulder .*  If  not  carried  out  x-ray chest  with or without  CT thorax is a must for    proper  diagnosis and management  guidelines .Hope this clears your query .Regards .",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 581,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My 5 year old daughter has just come down with a 39 degree fever, sneezing, runny nose and cough. Should we get her tested?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 5 year old daughter has just come down with a 39 degree fever, sneezing, runny nose and cough. Should we get her tested?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "severe"
+                    ],
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Maybe. Has she been around anyone who has tested positive for COVID-19?  Is she having shortness of breath or labored breathing?  If so, then, yes, consider getting her tested.   If not, it is more likely that she has the flu or some other virus.  If it seems like more than just a regular cold, reach out to her pediatrician for more advice.",
+                "system_acts": [],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 458,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hi. I have a very tight chest but no cough. Feels like I am about to cough sometimes but no cough. Then when I stand upright it's worse. No fever. Possible exposure to covid from gibs university but not sure. Really burning sensation on my chest.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi. I have a very tight chest but no cough. Feels like I am about to cough sometimes but no cough. Then when I stand upright it's worse. No fever. Possible exposure to covid from gibs university but not sure. Really burning sensation on my chest.",
+                "turn_label": [
+                    [
+                        "cough",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "yes"
+                    ],
+                    [
+                        "fever",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Consider asthma    Have you ever had asthma or wheezing? That can cause tightness & shortness of breath, as can certain heart problems.   Without fever & cough, COVID 19 is less likely, but probably best to call your Dr's office for recommendation.  If the breathing worsens you should be seen ASSP by video visit or perhaps in person to listen to lungs & assess need for possible chest X-ray, EKG, & medication  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 207,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hi! So I'm a 20 year old female. I started working out about a year ago. I noticed some lower abdominal pain after partaking in abdominal workouts. But also notice it around the time of my period. It's right next to/under my hip bone on left side.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi! So I'm a 20 year old female. I started working out about a year ago. I noticed some lower abdominal pain after partaking in abdominal workouts. But also notice it around the time of my period. It's right next to/under my hip bone on left side.",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   This could well be very normal.   One can get pain on day 14 during ovulation and before and during the period. Use panado for this and once we are through this corona virus you can use anti-inflammatories.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 5,
+        "url": "https://www.healthcaremagic.com/premiumquestions/Hi-I-am-Chaitanya-27-years-old-I-use-to/368590",
+        "description": "Does COVID-19 spreads through water? What precautions should I take to avoid infection?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi, I am Chaitanya, 27 years old. I use to swim daily in morning. Does COVID-19 spreads through water ? What precautions should I take to avoid infection?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello and welcome to Ask A Doctor service. I have reviewed your query and here is my advice. First few cases were suspected to have spread from food. However human to human spread is mainly from air droplets. I would suggest you to refrain from swimming for sometime. Although the virus will get killed in swimming pool if it doesnot find host for more than few minutes. Other precautions include to avoid social gatherings, wash hands frequently with soap and water, cover face with mask, stay home during sickness, avoid travel. Hope it helps. Let me know if I can assist you further. Dr Vaishalee",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 249,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My boyfriend suddenly lost his sense of smell. He had a sleep apnea test done 3 days ago, on a machine, plus one if his nostrils is stuffed up, due to a slight cold. Also when the test was done, his nostrils were clear. What caused this?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My boyfriend suddenly lost his sense of smell. He had a sleep apnea test done 3 days ago, on a machine, plus one if his nostrils is stuffed up, due to a slight cold. Also when the test was done, his nostrils were clear. What caused this?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "mild"
+                    ],
+                    [
+                        "smell_loss",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "COVID-19? You won't like to hear this, but loss of smell (anosmia) or taste often is the first symptom of COVID-19, the epidemic coronavirus infection. Nasal congestion also could go along with this. And you probably know that COVID-19 is currently a big problem in NYC. He should contact his doctor right away.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 467,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Is it safe to eat food prepared by someone with coronavirus? Even if they wear a mask and gloves?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Is it safe to eat food prepared by someone with coronavirus? Even if they wear a mask and gloves?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Better to skip. The protective gear is not protectve enough to prepare food.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 129,
+        "url": "https://www.healthcaremagic.com/questions/Why-does-one-have-difficulty-in-sleeping-with-history-of-pneumonia/627705",
+        "description": "Why does one have difficulty in sleeping with history of pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My father 82 years old was in the hospital for pneumonia and per cardiac catherization showing blockage. It was diagnosed that blockage was too much for bypass or stent. Only medication is given to help heart. Heart muscles also showed dead so it was no use to have bypass surgery per cardiac physician as even if blockage removed muscles would not help heart. My question is that now released from home he has been very uncomfortable during night sleep. He moans while asleep. He gets up and sits on bed. He then lays back and the same continues. He states being tired from hospital stay. He states he is tired from stay in hospital like hospital bed etc.  He really gets to sleep at 6 am and then during the day he is fine. Then the next night it starts again. Has been home since Feb. 2. Current medical doctor provided meds to sleep but that was worse. My mother is the primary caretaker and has reported his night sleep is off after returning home. Does the new diagnosis cause this or is there is a reason. Thanks.",
+                "turn_label": [
+                    [
+                        "tiredness",
+                        "no"
+                    ],
+                    [
+                        "age",
+                        "old"
+                    ],
+                    [
+                        "heart_failure",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello dearWarm welcome to Healthcaremagic.comI have evaluated your query thoroughly .*  There are different  reasons  for this as    -  lung abscess -  effusion  -  cardiac  distress induced  -  lung hypoxia     due  to  altered  pulmonary pressure  -  anxiety  exacerbation  -  others .Hope this clears your query .Regards .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 106,
+        "url": "https://www.healthcaremagic.com/questions/Is-removal-of-a-lung-correct-if-having-pneumonia/735380",
+        "description": "Is removal of a lung correct if having pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I ve had pneumonia numerous times always in my left lung. The last time was a year ago, it never went away. My pulmonary explained that the disease is between all the scar tissue. I also have Crohns Disease and am treated with remicade. After several C-Scans which showed a mass and biopsies and cultures which came back negative,I had the left lung completely removed last month and was diagnosed with pulmonary eosinothioia. Does this sound correct?",
+                "turn_label": [
+                    [
+                        "chronic_lung_diseases",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello dearWarm  welcome to Healthcaremagic.com I have evaluated your query in details  .*  According to the narration it was seemingly the correct decision of     surgery  on part of the surgeon as well  as  patient , because  the      medicines  were  not  going to cure it at  all .Wishing you fine recovery .Feel free to ask any further  queries .Regards  .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 147,
+        "url": "https://www.healthcaremagic.com/questions/What-does-this-chest-X-ray-test-result-for-pneumonia-indicate/1489824",
+        "description": "What does this chest X-ray test result for pneumonia indicate?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi, My chest x-ray reveals i have a small lingular infiltrate.WBC,lymphocytes,HCT etc elevated due to infection.I had a course of augmentin duo and steroid.currently on azithromycin 250 mgs.symptoms of pneumonia still persisting.Do i need to change my treatment?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello dear Warm welcome to Healthcaremagic.comI have gone through your query thoroughly .*  X-ray result indicates infection of the lung with some sort of bacteria     giving  rise to pneumonia .*  Pneumonia  recovery  takes  time  depending upon the virulence of the    organisms , host immune  response and other co morbid conditions .*  If  your  symptom score has declined  from  the  initiation of the therapy    wait  for  further  progress , if  the  intensity  of  the symptoms  is  as    it  is  then  have  to  consider  the change  of  therapy  or  consultant .Hope this clears your doubt .Thanks .Regards .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 524,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My daughter is displaying the below symptoms: - low grade fever - sore throat - headache - stomach pain - slight running nose Do I need to get her tested for Coronavirus? I am not aware of any contact with the virus.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My daughter is displaying the below symptoms: - low grade fever - sore throat - headache - stomach pain - slight running nose Do I need to get her tested for Coronavirus? I am not aware of any contact with the virus.",
+                "turn_label": [
+                    [
+                        "fever",
+                        "mild"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ],
+                    [
+                        "headache",
+                        "yes"
+                    ],
+                    [
+                        "contact_with_infestor",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Upper Resp Inf. Dear Pretoria patient.You did not mention your daughter's age. It sounds like a viral upper airway infection( anti histamines, paracetamol, Ponstan will suffice for a day)If she gets worse, she can be checked by a doctor.If she was not in contact with a positive patient, no need for testing.Stay home,  lots of fluids, rest, meds and observe .Monitor her temp as well.RegardsDr Wil.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 241,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I believe the incubation period for covid 19 is 7 days. So if you get sick after 7 days does the 14 say quarantine period starts from the moment you show symptoms or is the 7 days incubation period included in 14 day quarantine period?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I believe the incubation period for covid 19 is 7 days. So if you get sick after 7 days does the 14 say quarantine period starts from the moment you show symptoms or is the 7 days incubation period included in 14 day quarantine period?",
+                "turn_label": [
+                    [
+                        "nausea",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "After symptoms show. As per the NICD Guidelines for Clinical Management of Suspected or Confirmed COVID-19 Disease, 'Those with mild disease may be de-isolated 14 days after symptom onset, while those with severe disease may be de-isolated 14 days after achieving clinical stability  (e.g. once supplemental oxygen is discontinued)'. [Available at: http://www.nicd.ac.za/diseases-a-z-index/covid-19/covid-19-guidelines/]",
+                "system_acts": [],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 579,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Been sneezing / stuffy nose and slight sore throat since returning from France, temperature is okay, not coughing or high fever symptoms, should I be alarmed?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Been sneezing / stuffy nose and slight sore throat since returning from France, temperature is okay, not coughing or high fever symptoms, should I be alarmed?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "no"
+                    ],
+                    [
+                        "cough",
+                        "no"
+                    ],
+                    [
+                        "sore_throat",
+                        "mild"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Simple Cold but..... Sounds like simple Cold, But under the current health challenges of the world, it's best to be preemptive. And because Covid-19 is an infectious disease mostly transmitted through respiratory fluid droplets, One should first follow the WHO/CDC  current guidelines on hygiene. Then gargle with salt-water or vinegar-water after each meal/bedtime plus take Aleve or Ibuprofen for soreness/fever...   .",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 270,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Buen d\u00eda doctor (a) tengo una duda :si dos hombres homosexuales tienen relaciones sexuales sin protecci\u00f3n pero estos tienen una relaci\u00f3n mutuamente monogama y ninguno de las dos personas est\u00e1 infectado de VIH\u00bfPueden contraer VIH?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Buen d\u00eda doctor (a) tengo una duda :si dos hombres homosexuales tienen relaciones sexuales sin protecci\u00f3n pero estos tienen una relaci\u00f3n mutuamente monogama y ninguno de las dos personas est\u00e1 infectado de VIH\u00bfPueden contraer VIH?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   TRANSMISI\u00d3N VIH   Solamente ciertos l\u00edquidos corporales \u2014la sangre, el semen, el l\u00edquido preseminal, las secreciones rectales etc \u2014 de una persona que tiene el VIH pueden transmitir el virus.    Si ambos tienen la certeza con una prueba confirmatoria de que no est\u00e1n infectados y son monogamos no tienen por qu\u00e9 contraerlo. Sin embargo tener relaciones sexuales sin protecci\u00f3n pueden contraer otro ETS  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,380 @@
+[
+    {
+        "dialogue_index": 594,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Throat a bit sore and want to get a good immune booster, especially in light of the virus. Please advise. Have not been in contact with Nyone with the virus.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Throat a bit sore and want to get a good immune booster, especially in light of the virus. Please advise. Have not been in contact with Nyone with the virus.",
+                "turn_label": [
+                    [
+                        "contact_with_infestor",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "During this pandemic. Throat pain can be from a strep throat infection (antibiotics needed), a cold or influenza or other virus, or from some other cause such as allergies or irritants. Usually, a person sees the doctor (call first) if the sore throat is bothersome, recurrent, or doesn't go away quickly. COVID-19 infections tend to have cough, whereas strep throat usually lacks cough but has more throat pain. (3/21/20)",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 82,
+        "url": "https://www.healthcaremagic.com/questions/Do-severe-headache-tingling-head-and-nose-pain-in-lower-chest-and-chills-mean-pneumonia/602797",
+        "description": "Do severe headache, tingling head and nose, pain in lower chest and chills mean pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hello, im a female of 26, heavy smoker with last breath reading of 33 and drink daily. On Thursday I suffered from a severe headache which stayed until Friday evening, as the headache subsided I had a tingling and pressure sensation over head which was also over my nose. I have had no fever, cold etc Yesterday I felt very lightheaded and also after an episode of diarrea this morning am lightheaded again... I have no trouble breathing as such but I suffer from anxiety which I think has been happening alot today. I have had some twinge type pains in my lower chest ( like at the bottom of ribs) for a few days but not necessarily when I breath in and out and when I do cough I have had mucus? Come up, it s almost like it s stuck in my throat also.... I have some head pressure and am getting cold feet every now and then everything I ve checked says pneumonia does this sound like what I could have or could it just be anxiety, I m a little worried...the symptoms separately come and go but my head stays feeling.a little heavy! Chills now and again",
+                "turn_label": [
+                    [
+                        "fever",
+                        "no"
+                    ],
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "breath_difficulty",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "no"
+                    ],
+                    [
+                        "headache",
+                        "yes"
+                    ],
+                    [
+                        "chest_pain",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello,According to history, yes, it might be\u00a0pneumonia,\u00a0but you should do a chest x-ray.\u00a0Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Jnikolla",
+                "system_acts": [
+                    "need_lab_test"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 40,
+        "url": "https://www.healthcaremagic.com/questions/Are-there-long-term-repercussions-of-not-treating-pneumonia-which-was-diagnosed-5-months-ago/1146785",
+        "description": "Are there long term repercussions of not treating pneumonia which was diagnosed 5 months ago?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 19 year old son was diagnosed with pneumonia 5 months ago and was given antibiotics but with minimal results. Unfortunately he still suffers from the same symptoms but since he is in the military he refuses to go back to the doctor for fear of reprisal. His cough is still deep and his energy is low. Are there any long term repercussions for his lungs if he continues without treatment.",
+                "turn_label": [
+                    [
+                        "cough",
+                        "severe"
+                    ],
+                    [
+                        "chronic_lung_diseases",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello, As you explain the situation I strongly recommend you to send him to the doctor for a re-evaluation of the situation. Hope I have answered your query. Let me know if I can assist you further. Regards, Dr. Jnikolla, Pulmonologist",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 279,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hey there I have had cold 'symptoms' for over a week and had a low grade fever last week. For the past two days I have been feeling dizzy. Should I contact my dr? Should I see a dr",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hey there I have had cold 'symptoms' for over a week and had a low grade fever last week. For the past two days I have been feeling dizzy. Should I contact my dr? Should I see a dr",
+                "turn_label": [
+                    [
+                        "fever",
+                        "mild"
+                    ],
+                    [
+                        "unwell_duration",
+                        "in_a_week"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Yes. Protection. It is not enough symptoms to say that you are a suspect case of COVID19; but, independently of this, if you have been in contact with a case, or you present persistent cough (with or without sputum), shortness of breath, wheezing, or you have a chronic disease like diabetes, hypertension, low immune system or cancer, should ask for medical attention. And use all the protection measures.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 419,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I have a tight and painful chest with a dry cough, no fever and no headaches. Could it possibly be coronavirus?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have a tight and painful chest with a dry cough, no fever and no headaches. Could it possibly be coronavirus?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "headache",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Possible. Top symptoms include fever, dry cough and SOB. An obvious possibility.  If so, your best step is to self-quarntine. Remember at your age low risk of complication and typically will pass without issue. If worsening SOB be seen. Call your provider or check with local health department. These are Healthtap guidelines:https://www.healthtap.com/blog/covid-19-care-guidelines/self-quarantine-guide.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 239,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "What will happen after the incubation period for covid 19?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "What will happen after the incubation period for covid 19?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Symptoms   If you are infected, symptoms will emerge: tiredness, dry cough, fever worsening over 5-14 days.  You will also become more infective so self-isolation and good hygiene are vital.Only be concerned about COVID-19 if: - You have been in contact with someone with a conformed diagnosis of COVID-19 - You have visited a high risk area - Symptoms worsen and include persistent fever and dry cough  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 111,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-pneumonia/761221",
+        "description": "Suggest treatment for pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Just found out I was pregnant. Yesterday diagnosed with pneumonia. I am a high risk pregnancy. Fertility issues, pcos, weak cervix. Delivered first daughter at 29 weeks, miscarried, and gave birth at 38 weeks to second daughter, but was on bedrest for weak cervix beginning at 5 months. I m a wreck. When I miscarried they said my progesterone level is low which caused me to miscarry, and gave me progesterone shots every week. Can t see doctor for two days.",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "hanks for your question on Healthcare Magic.I can understand your concern. Pneumonia with pregnancy is always critical.Antibiotics as early as possible is the treatment of choice for pneumonia. So better to immediately consult doctor and start antibiotics for pneumonia. Drink plenty of fluids orally and keep yourself hydrated. With prompt and appropriate treatment, pneumonia can be cured easily. Hope I have solved your query. I will be happy to help you further. Wish you good health. Thanks.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 364,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Can you contact coronavirus or any virus from the air? Also, from talking to someone from a distance of beyond 6 feet. Any info on airborne facts?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Can you contact coronavirus or any virus from the air? Also, from talking to someone from a distance of beyond 6 feet. Any info on airborne facts?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "COVID 19 is airborne. COVID 19 is primarily an airborne acquired infection. the number of potentially infected viruses dissipate by 6 feet.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 427,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I'm told that dirrhea is a symptom of Covid 19. I have had it for 36 hours, no appetite. Do I need to be tested and where? I'm in Alberton.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I'm told that dirrhea is a symptom of Covid 19. I have had it for 36 hours, no appetite. Do I need to be tested and where? I'm in Alberton.",
+                "turn_label": [
+                    [
+                        "diarrhea",
+                        "yes"
+                    ],
+                    [
+                        "unwell_duration",
+                        "in_a_week"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Diaree. No, treat the diaree with fluids and electrolytes, load with probiotics Look out for fever,( take Paracetamol) or other symptoms.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 223,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Do I need to take my 10 month old son for his measles vaccinations now that it is due or can it wait until the Coronavirus Pandemic has calmed down as I dont want to expose him unnecessarily in clinics or hospitals.",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Do I need to take my 10 month old son for his measles vaccinations now that it is due or can it wait until the Coronavirus Pandemic has calmed down as I dont want to expose him unnecessarily in clinics or hospitals.",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Wait for now   Wait for now, keep talking on this platform. Stay safe.  Would you like to video or text chat with me?        ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 403,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My wife is a nurse in a GP practice, and although she has a mask and gloves etc, is that enough to protect her, if an infected patient with the virus was to come in to her?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My wife is a nurse in a GP practice, and although she has a mask and gloves etc, is that enough to protect her, if an infected patient with the virus was to come in to her?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Nearly. need an N95 mask, gloves and gown as well as eye protection if in contact with aerosol, if working with truely negative she is safe, but we need more testing and to keep mildly ill with corona away from every body else.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 543,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I have all the symptoms except fever, I went to Medicross and Dr said I can get tested if I want to I'm not sure if I should. She gave me antibiotics Klacid XL 500mg, she said I can take it if I feel worse I'm worried it will make immune system bad?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I have all the symptoms except fever, I went to Medicross and Dr said I can get tested if I want to I'm not sure if I should. She gave me antibiotics Klacid XL 500mg, she said I can take it if I feel worse I'm worried it will make immune system bad?",
+                "turn_label": [
+                    [
+                        "fever",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Antibiotic   I don't recommend antibiotics for a simple viral upper respiratory tract infection unless examination revealed signs of acute bronchitis or sinusitis.   They are not effective for viral infections like coVid 19 with no bacterial lung involvement either. If you've been exposed to someone with coVid 19 or or if you or someone you were exposed to travelled to a region where it was endemic, get tested  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 494,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Hi There. I was at a festival over this past weekend and there has been a report of someone testing positive now. Is it a good idea to go for a test and/or self isolate ? Is national travel by car ok ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi There. I was at a festival over this past weekend and there has been a report of someone testing positive now. Is it a good idea to go for a test and/or self isolate ? Is national travel by car ok ?",
+                "turn_label": [
+                    [
+                        "recent_travel",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Self-quarantine!    Enter self-quarantine then call your health care provider to get instructions regarding testing, self-quarantine and possible hospitalization then follow through!  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 75,
+        "url": "https://www.healthcaremagic.com/questions/Suggest-treatment-for-low-grade-fever-despite-taking-medication-for-pneumonia/1553469",
+        "description": "Suggest treatment for low grade fever despite taking medication for pneumonia",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hi,got pneumonia,1month ago.had hemoptasis,positive blood culture x1.have been treated with erythromycin x5days,clindamycin x10 xays,then levaquin,x10days,and prednisone.I have been thru with medications for 5dags,but have had low grade temp(99) a couple of evenings since.I still feel horrible,but my NP hasn t done anything since.I did contact my Pulmanologist today,and waiting for response.is there anymore I can do?really don t want to go back to hospital.thank you",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "Hello,Go for vaccinations given below:- flu vaccine- staphylococcal vaccine - improve immunity Do exercise daily and take citrus food. Rule out diabetes.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Chandra Shekhar",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    }
+]

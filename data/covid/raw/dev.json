@@ -1,0 +1,252 @@
+[
+    {
+        "dialogue_index": 469,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I know hand washing (20+ seconds) is best to kill coronavirus, and that if not available use sanitizer of 60%+ alcohol. I thought my sanitizer was but realized it's only 57.6%. Been using lots for weeks. I've stopped using it. Should I be worried?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I know hand washing (20+ seconds) is best to kill coronavirus, and that if not available use sanitizer of 60%+ alcohol. I thought my sanitizer was but realized it's only 57.6%. Been using lots for weeks. I've stopped using it. Should I be worried?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   Life is not exact   In pandemic times, supplies are short.   Life is not that exact. That means 57.6% is fine, and if a person catches the coronavirus, it won't be because she was missing 2% on her hand sanitizer. Remember that the virus goes from person to person. If there are no people close by, and if the high-touch surfaces like table tops, keyboards, or doorknobs are clean, then one is a lot safer. (Mar. 2020)  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 170,
+        "url": "https://www.healthcaremagic.com/questions/How-to-treat-walking-pneumonia/668999",
+        "description": "How to treat walking pneumonia?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My fianc\u00e9 has been coughing uncontrollably every night for the past 4 months. He is 23 years old, 5'9, about 140 lbs., and has been told by his dr that he has walking pneumonia. He has been prescribed antibiotics, cough syrup, allergy medicine, mucinex, nasal sprays, and inhalers and although they suppress the coughing at times he still does not seem to have gotten rid of the coughing. His coughing is accompanied with phlegm and has also caused him to throw up due to the extremity. He does smoke cigars as well. What is this!?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "severe"
+                    ],
+                    [
+                        "phlegm",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Walking pneumonia is a non-medical term to describe a mild case of pneumonia. It is usually called atypical pneumonia because the disease is different from more serious cases of pneumonia caused by typical bacteria. it is often the result of a lung infection from a bacterial microorganism called Mycoplasma pneumoniae and generally treated with antibiotics. Mild infections are often not treated because they tend to clear on their own. With treatment, most people begin to feel better within a few days.",
+                "system_acts": [
+                    "concrete_advice"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 266,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "2 days ago I started experiencing fatigue and random body pains, mostly below the ribs and body temp was high as I was sweating and feeling cold. GP give me flue medication and advice against testing for Corona. Should I insist on testing for Corona?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "2 days ago I started experiencing fatigue and random body pains, mostly below the ribs and body temp was high as I was sweating and feeling cold. GP give me flue medication and advice against testing for Corona. Should I insist on testing for Corona?",
+                "turn_label": [
+                    [
+                        "unwell_duration",
+                        "in_a_week"
+                    ],
+                    [
+                        "tiredness",
+                        "yes"
+                    ],
+                    [
+                        "fever",
+                        "yes"
+                    ],
+                    [
+                        "muscle_aches",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   No,you shouldnt.   Unless you have a history of international travel recently or were in contact with someone who has tested positive for Corona Virsu.  Would you like to video or text chat with me?        ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 567,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "My 2year old Son has had a dry cough and a runny nose since thursday . He's not talking yet so it is difficult to tell if he has any trouble breathing so I'm concerned. He does not have temperature ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "My 2year old Son has had a dry cough and a runny nose since thursday . He's not talking yet so it is difficult to tell if he has any trouble breathing so I'm concerned. He does not have temperature ?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "breath_difficulty",
+                        "no"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Observant is enough.   By looking at your child you'll know if he is having breathing difficulties.   Cough with a runny nose is common in children. You should be concerned only if he is refusing to play and eat, or if he develops breathing difficulties. Having a fever doesn't mean he has the Coronavirus. He is more likely to be infected with any of the common infections in your area of Gauteng.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 368,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Should patients with COVID-19 avoid ibuprofen or RAAS antagonists?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Should patients with COVID-19 avoid ibuprofen or RAAS antagonists?",
+                "turn_label": []
+            },
+            {
+                "doctor_text": "In brief:   COVID-19 and RAAS    No, according to recent statement from American Heart Association, the patients with cardiovascular disease should continue ACEI or ABR as prescribed.   WHO also doesn't recommend avoiding ibuprofen for patients with COVID-19 Symptoms, although the use of acetaminophen could be an alternative option.   Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 582,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "I am a quadriplegic and have a tight chest and slight difficulty breathing.  Overnight I started feeling like I need to clear my throat. I flew home to Joburg from CPT 8 days ago & have been self isolating as a precaution. ?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "I am a quadriplegic and have a tight chest and slight difficulty breathing.  Overnight I started feeling like I need to clear my throat. I flew home to Joburg from CPT 8 days ago & have been self isolating as a precaution. ?",
+                "turn_label": [
+                    [
+                        "breath_difficulty",
+                        "mild"
+                    ],
+                    [
+                        "sore_throat",
+                        "mild"
+                    ],
+                    [
+                        "chest_pain",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Monitor.   Stay at home, monitor your temperature, drink fluids and rest.   Nasal congestion and post nasal drip is not typically associated with COVID-19. Watch for dry cough, fever and if your shortness of breath does not resolve, discuss whether you need an inhaler, chest physiotherapy and/or testing. If you have a trach, watch for signs of infection such as more secretions or a change in color .  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 213,
+        "url": "https://www.healthtap.com/member/fg?page=/search/covid",
+        "description": "Itchy ears, painful ears pain in roof of mouth only at night. Post nasal drip. I've sneezed a few times and sometimes my nose runs in the morning what could this be? Also sometimes I cough but not a lot. Any idea? Covid 19?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Itchy ears, painful ears pain in roof of mouth only at night. Post nasal drip. I've sneezed a few times and sometimes my nose runs in the morning what could this be? Also sometimes I cough but not a lot. Any idea? Covid 19?",
+                "turn_label": [
+                    [
+                        "cough",
+                        "yes"
+                    ],
+                    [
+                        "runny_nose",
+                        "yes"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "In brief:   Probably not Covid.   May be allergic, bacterial sinus infection, a different virus, a narrow upper jaw with partial airway obstruction, or other causes.   Call your General Physician and check if they want to see you. See your Dentist to evaluate if your upper jaw is too narrow and if you need to see an Orthodontist.  Would you like to video or text chat with me?         ",
+                "system_acts": [
+                    "request_infomation"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    },
+    {
+        "dialogue_index": 3,
+        "url": "https://www.icliniq.com/qa/coronavirus/can-corona-virus-cause-itchiness-in-throat-and-shortness-of-breath",
+        "description": "Can Coronavirus cause itchiness in throat and shortness of breath?",
+        "turns": [
+            {
+                "doctor_text": "",
+                "system_acts": [],
+                "patient_text": "Hello doctor, I am a 23-year-old man. I have anxiety and depression but no immunodeficiency disorders or chronic diseases. First, I wanna know if my immune system is weakened and how likely am I to die of Coronavirus. Second, I have itchiness in my throat and shortness of breath. I always have it because of anxiety but now it is more persistent than before. I also feel a very subtle feeling of pain, burning sensation and itchiness in my chest. I did not go out during the past ten days and have not been in contact with someone with positive Covid. And I quit smoking past week. Down to one or zero cigarettes from 20 a day. Why am I feeling itchiness and pain and burning sensation? How likely am I to have Covid-19? And how likely am I to die from it?",
+                "turn_label": [
+                    [
+                        "breath_difficulty",
+                        "yes"
+                    ],
+                    [
+                        "sore_throat",
+                        "no"
+                    ],
+                    [
+                        "chest_pain",
+                        "no"
+                    ],
+                    [
+                        "smoking",
+                        "yes"
+                    ],
+                    [
+                        "contact_with_infestor",
+                        "no"
+                    ]
+                ]
+            },
+            {
+                "doctor_text": "Hello. Anxiety can manifest itself in physical or psychological symptoms or both. The irritation sensation you are experiencing is a part of your anxiety. Also please do not believe the hype about covid. It has a low mortality rate, of 2-3 percent, that too mortality is very high in people above 60-70 years with other co-morbidities. You do not have any such disorders and you have not even been in contact with anyone, so do not worry. Please continue to take your medicines for anxiety if you are taking them, if not, please consider visiting a psychiatrist and get started on some low dose SSRI type of medicines. Also, if needed a low dose Benzodiazepines can be added temporarily. Also, please do some deep breathing exercises, or progressive muscle relaxation. You can also take some honey with water to reduce the itching in the throat and also try doing some gargles with lukewarm salt water.",
+                "system_acts": [
+                    "contact_doctor"
+                ],
+                "patient_text": "",
+                "turn_label": []
+            }
+        ]
+    }
+]

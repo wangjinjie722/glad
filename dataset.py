@@ -179,6 +179,9 @@ class Dataset:
         ref_dialogs = self.dialogues
         dialog_preds = preds
 
+        print("here: ")
+        print(len(ref_dialogs))
+        print(len(dialog_preds))
         assert len(ref_dialogs) == len(dialog_preds)
 
         joint_goal = []

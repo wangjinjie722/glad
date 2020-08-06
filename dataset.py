@@ -176,33 +176,21 @@ class Dataset:
     #     return {'turn_inform': np.mean(inform), 'turn_request': np.mean(request), 'joint_goal': np.mean(joint_goal)}
 
     def evaluate_preds(self, preds):
-        ref_dialogs = self.dialogues
-        dialog_preds = preds
+        ref_turns = list(self.iter_turns())
+        pred_turns = preds
 
-        print("here: ")
-        print(len(ref_dialogs))
-        print(len(dialog_preds))
-        assert len(ref_dialogs) == len(dialog_preds)
+        assert len(ref_turns) == len(pred_turns)
 
         joint_goal = []
-        for ref_dialog, turn_preds in zip(ref_dialogs, dialog_preds):
-            ref_turns = ref_dialog.turns
-            assert len(ref_turns) == len(turn_preds)
+        for ref_turn, pred_turn in zip(ref_turns, pred_turns):
+            cur_turn = 1
+            for p,v in ref_turn.turn_label:
+                if (p,v) not in pred_turn:
+                    cur_turn = 0
+            joint_goal.append(cur_turn)
 
-            gold_sv, pred_sv = [], []
-            for ref_turn, pred in zip(ref_turns, turn_preds):
-                gold_sv.append(set([(s, v) for s, v in ref_turn.turn_label]))
-                pred_sv.append(set([(s, v) for s, v in pred]))
+        return {'turn_inform': 0., 'turn_request': 0., 'joint_goal': np.mean(joint_goal)}
 
-            # print('GOLD:', gold_sv)
-            # print('PRED:', pred_sv)
-            joint_goal.append(gold_sv == pred_sv)
-
-
-        return EvalResult(
-            turn_inform=0.,
-            turn_request=0.,
-            joint_goal=np.mean(joint_goal))
 
     def record_preds(self, preds, to_file):
         data = self.to_dict()

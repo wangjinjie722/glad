@@ -183,13 +183,14 @@ class Dataset:
 
         joint_goal = []
         for ref_turn, pred_turn in zip(ref_turns, pred_turns):
-            cur_turn = 1
-            for p,v in ref_turn.turn_label:
-                if (p,v) not in pred_turn:
-                    cur_turn = 0
-            joint_goal.append(cur_turn)
+            gold_belief_state, pred_belief_state = {}, {}
+            for p, v in ref_turn.turn_label:
+                gold_belief_state[p] = v
+            for p, v in pred_turn:
+                pred_belief_state[p] = v
+            joint_goal.append(gold_belief_state == pred_belief_state)
 
-        return {'turn_inform': 0., 'turn_request': 0., 'joint_goal': np.mean(joint_goal)}
+        return {'joint_goal': np.mean(joint_goal)}
 
 
     def record_preds(self, preds, to_file):

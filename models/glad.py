@@ -236,6 +236,10 @@ class Model(nn.Module):
             # do early stopping saves
             stop_key = 'eval_dev_{}'.format(args.stop)
             train_key = 'eval_train_{}'.format(args.stop)
+            print("best: ")
+            print(best.get(stop_key,0))
+            print("summary: ")
+            print(summary[stop_key])
             if best.get(stop_key, 0) <= summary[stop_key]:
                 best_dev = '{:f}'.format(summary[stop_key])
                 best_train = '{:f}'.format(summary[train_key])
@@ -258,13 +262,14 @@ class Model(nn.Module):
     def extract_predictions(self, scores, threshold=0.5):
         batch_size = len(list(scores.values())[0])
         predictions = [set() for i in range(batch_size)]
+
         for s in self.ontology.slots:
             for i, p in enumerate(scores[s]):
                 # triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p) if p_v > threshold]
-                triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p)]
-                
-                sort = sorted(triggered, key=lambda tup: tup[-1], reverse=True)
-                predictions[i].add((sort[0][0], sort[0][1]))
+                triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p) if p_v >= 0.001]
+                if triggered:
+                    sort = sorted(triggered, key=lambda tup: tup[-1], reverse=True)
+                    predictions[i].add((sort[0][0], sort[0][1]))
                 # if s == 'request':
                 #    # we can have multiple requests predictions
                 #    predictions[i] |= set([(s, v) for s, v, p_v in triggered])
@@ -272,14 +277,13 @@ class Model(nn.Module):
                 #    # only extract the top inform prediction
                 #    sort = sorted(triggered, key=lambda tup: tup[-1], reverse=True)
                 #    predictions[i].add((sort[0][0], sort[0][1]))
+
         return predictions
 
     def run_pred(self, dev, args):
         self.eval()
         predictions = []
         for batch in dev.batch(batch_size=args.batch_size):
-            print("batch size: ")
-            print(len(batch))
             loss, scores = self.forward(batch)
             predictions += self.extract_predictions(scores)
         return predictions

@@ -236,10 +236,6 @@ class Model(nn.Module):
             # do early stopping saves
             stop_key = 'eval_dev_{}'.format(args.stop)
             train_key = 'eval_train_{}'.format(args.stop)
-            print("best: ")
-            print(best.get(stop_key,0))
-            print("summary: ")
-            print(summary[stop_key])
             if best.get(stop_key, 0) <= summary[stop_key]:
                 best_dev = '{:f}'.format(summary[stop_key])
                 best_train = '{:f}'.format(summary[train_key])
@@ -266,7 +262,7 @@ class Model(nn.Module):
         for s in self.ontology.slots:
             for i, p in enumerate(scores[s]):
                 # triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p) if p_v > threshold]
-                triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p) if p_v >= 0.001]
+                triggered = [(s, v, p_v) for v, p_v in zip(self.ontology.values[s], p) if p_v >= threshold]
                 if triggered:
                     sort = sorted(triggered, key=lambda tup: tup[-1], reverse=True)
                     predictions[i].add((sort[0][0], sort[0][1]))

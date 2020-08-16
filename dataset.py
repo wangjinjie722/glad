@@ -183,7 +183,7 @@ class Dataset:
             pred_state, gold_state = {}, {}
             for t in d.turns:
                 gold_inform = set([(s, v) for s, v in t.turn_label])
-                pred_inform = set([(s, v) for s, v in preds[i])
+                pred_inform = set([(s, v) for s, v in preds[i]])
                 for s, v in pred_inform:
                     pred_state[s] = v
                 for s, v in gold_inform:

@@ -176,20 +176,19 @@ class Dataset:
     #     return {'turn_inform': np.mean(inform), 'turn_request': np.mean(request), 'joint_goal': np.mean(joint_goal)}
 
     def evaluate_preds(self, preds):
-        ref_turns = list(self.iter_turns())
-        pred_turns = preds
-
-        assert len(ref_turns) == len(pred_turns)
 
         joint_goal = []
-        for ref_turn, pred_turn in zip(ref_turns, pred_turns):
-            gold_belief_state, pred_belief_state = {}, {}
-            for p, v in ref_turn.turn_label:
-                gold_belief_state[p] = v
-            for p, v in pred_turn:
-                pred_belief_state[p] = v
-            joint_goal.append(gold_belief_state == pred_belief_state)
-
+        i = 0
+        for d in self.dialogues:
+            pred_state, gold_state = {}, {}
+            for t in d.turns:
+                gold_inform = set([(s, v) for s, v in t.turn_label])
+                pred_inform = set([(s, v) for s, v in preds[i])
+                for s, v in pred_inform:
+                    pred_state[s] = v
+                for s, v in gold_inform:
+                    gold_state[s] = v
+                joint_goal.append(pred_state == gold_state)
         return {'joint_goal': np.mean(joint_goal)}
 
 

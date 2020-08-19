@@ -46,7 +46,7 @@ Subsequent runs will be much faster.
 docker exec glad python preprocess_data.py
 ```
 
-The raw data will be stored in `data/woz/raw` of the container.
+The raw data will be stored in `data/[name_of_dataset](woz/covid)/raw` of the container.
 The annotation results will be stored in `data/woz/ann` of the container.
 
 If you do not want to build the Docker image, then run
